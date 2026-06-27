@@ -1,0 +1,22 @@
+```gitignore
+# Node
+node_modules/
+build/
+dist/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Keys
+*.pem
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.*
+```
